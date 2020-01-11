@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.acc-btn{
+    width: 100%;
+    padding: 15px 0;
+    background: green;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+    &:hover{
+        background-color: rgb(3, 94, 3);
+    }
+}
+.panel{
+    display: none;
+}
+.tab-menu{
+    margin: 40px 0;
+    .tab-btn{
+        padding: 10px 30px;
+        background: orange;
+        color: #fff;
+        border: none;
+        font-size: 1.2em;
+        border-bottom: 1px solid #ddd;
+        transition: .3s;
+        &:hover{
+            background-color: rgb(184, 119, 0);
+        }
+    }
+    .tab-panel{
+        margin: 10px 0;
+        padding: 30px;
+        border: 1px solid orange;
+        border-radius: 0 0 10px 10px;
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
